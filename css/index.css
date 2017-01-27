@@ -1,0 +1,232 @@
+body {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+}
+
+h1, h2 {
+    font-weight: normal;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+a {
+    color: #42b983;
+}
+
+
+/*navigation*/
+
+.navbar-default {
+    background-color: #ffffff;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: rgb(255, 172, 19);
+}
+
+.nav-pills {
+    padding: 4% 12% 4% 0%;
+}
+
+.nav-text {
+    font-size: 18pt;
+    font-family: OratorStd;
+    color: rgb(255, 172, 19);
+    z-index: auto;
+}
+
+#imgHooldersLogo {
+    margin: 2% auto;
+    height: auto;
+    width: 180px;
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .nav-pills {
+        padding: 4% 0% 4% 0%;
+    }
+    #imgHooldersLogo {
+        height: auto;
+        width: 160px;
+        margin: 5% auto auto 10%
+    }
+}
+
+@media (min-width: 991px) {
+    #imgHooldersLogo {
+        height: auto;
+        width: 220px;
+        margin: 5% auto auto 30%
+    }
+    .text-align-left-md {
+        text-align: left;
+    }
+}
+
+@media (min-width: 768px) {
+    /*vertical line in navigation*/
+    .navbar-nav>li>a {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .vertical-line {
+        border-left: 1px solid #C0C0C0;
+    }
+}
+
+
+/*Panorama*/
+
+img.logo {
+    max-width: 100%;
+    width: 80%;
+}
+
+#panorama {
+    background-image: url(../media/image/homepage_epargneb3.jpg);
+    margin-top: -20px;
+}
+
+
+/*imageFond*/
+.avatar-image {
+    width: 100%;
+    max-width: 100%
+}
+
+#imageFond {
+    background-image: url(../media/image/image_fleur.png);
+}
+
+#bloc2 {
+    background-image: url(https://hoolders.com/media/projects/pictures/origin/bloc2.png);
+    padding-bottom: 9px;
+}
+
+
+/*thumbnail*/
+.thumbnail {
+    border: none;
+    position: relative;
+    overflow: hidden;
+    padding: 0px;
+}
+
+.thumbnail .tags {
+    position: absolute;
+    left: 50px;
+}
+
+.thumbnail .caption {
+    background-color: #e6e6e6;
+    padding: 20px
+}
+
+.thumbnail .caption .company-title {
+    text-align: center;
+    display: block;
+    font-size: 2rem;
+}
+
+.thumbnail .caption .objectif {
+    display: block;
+    text-align: center;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+/*thumbnail animation*/
+.thumbnail figure {
+
+    cursor: pointer;
+}
+
+.thumbnail figure .back-end {
+    display: block;
+    position: absolute;
+    z-index: 5;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.thumbnail figure .back-end {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    backface-visibility: hidden;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s
+}
+
+.thumbnail figure .front-end {
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s
+}
+
+.thumbnail figure:hover .front-end, figure.hover .front-end{
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    transform: rotateY(180deg)
+}
+
+.thumbnail figure:hover .back-end, figure.hover .back-end {
+    -webkit-transform: rotateY(0);
+    -moz-transform: rotateY(0);
+    transform: rotateY(0)
+}
+
+
+@media (min-width: 992px) {
+    .thumbnail .caption .company-title {
+        display: inline-block;
+    }
+    .thumbnail .caption .objectif {
+        display: inline-block;
+        margin-left: 40px;
+    }
+}
+
+
+/*carousel*/
+.carousel-responsive{
+  padding: 0px
+}
+
+
+.carousel-responsive .thumbnail{
+  margin: 30px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.carousel-responsive .tags{
+  left: 0px;
+}
+
+@media (min-width: 992px) {
+  .carousel-responsive{
+    padding: 10px 80px
+  }
+  .carousel-responsive .thumbnail .caption .objectif {
+        margin-left: 0px;
+    }
+}
