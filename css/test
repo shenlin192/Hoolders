@@ -1,193 +1,105 @@
-<section class="col-md-12 text-center background-grey margin-bottom-100">
-    <div class="carousel slide padding-bottom-40" data-ride="carousel" data-type="multi" data-interval="3000" id="myCarousel">
-        <div class="carousel-inner">
-            <div class="item active margin-top-40">
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="thumbnail margin-20px">
-                        <div class="tags">
-                            <div class="retangle">
-                                ISF 2016
-                            </div>
-                            <div class="retangle">
-                                IR
-                            </div>
-                            <div class="retangle">
-                                PEA/PME
-                            </div>
+<div class="row">
+    <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 col-sm-offset-1
+    col-md-offset-1 col-lg-offset-1 padding-30">
+        <div class="thumbnail">
+            <figure>
+                <div class="front-end">
+                    <div class="tags">
+                        <div class="retangle">
+                            ISF 2016
                         </div>
-                        <img src="./media/image/carousel1.jpg" alt="silver economy">
-                        <div class="caption">
-                            <h3 class="company-title font-weight-bold">ROBOCARE LAB</h3>
-                            <div class="objectif font-weight-bold margin-left-80 margin-right-20">
-                                Objectif :
-                                <div class="rounded-retangle  margin-left-20">
-                                    350 000 &euro;
-                                </div>
-                            </div>
+                        <div class="retangle">
+                            IR
+                        </div>
+                        <div class="retangle">
+                            PEA/PME
                         </div>
                     </div>
-                </div>
-            </div>
-
-            <div class="item margin-top-40">
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="thumbnail margin-20px">
-                        <div class="tags">
-                            <div class="retangle">
-                                ISF 2016
-                            </div>
-                            <div class="retangle">
-                                IR
-                            </div>
-                            <div class="retangle">
-                                PEA/PME
+                    <div class="">
+                        <img src="./media/image/thumbnail_example.jpg" alt="silver economy">
+                    </div>
+                    <div class="caption">
+                        <h3 class="company-title font-weight-bold">ROBOCARE LAB</h3>
+                        <div class="objectif font-weight-bold margin-right-20">
+                            Objectif :
+                            <div class="rounded-retangle  margin-left-20">
+                                350 000 &euro;
                             </div>
                         </div>
-                        <img src="./media/image/carousel2.jpg" alt="silver economy">
-                        <div class="caption">
-                            <h3 class="company-title font-weight-bold">ROBOCARE LAB</h3>
-                            <div class="objectif font-weight-bold margin-left-80 margin-right-20">
-                                Objectif :
-                                <div class="rounded-retangle  margin-left-20">
-                                    350 000 &euro;
-                                </div>
-                            </div>
-                        </div>
+                        <p class="margin-top-20 text-light-gray">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Murenam te accusante defenderem. Vulgo enim dicitur
+                        </p>
                     </div>
                 </div>
-            </div>
 
-            <div class="item margin-top-40">
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="thumbnail margin-20px">
-                        <div class="tags">
-                            <div class="retangle">
-                                ISF 2016
-                            </div>
-                            <div class="retangle">
-                                IR
-                            </div>
-                            <div class="retangle">
-                                PEA/PME
-                            </div>
-                        </div>
-                        <img src="./media/image/carousel3.jpg" alt="silver economy">
-                        <div class="caption">
-                            <h3 class="company-title font-weight-bold">ROBOCARE LAB</h3>
-                            <div class="objectif font-weight-bold margin-left-80 margin-right-20">
-                                Objectif :
-                                <div class="rounded-retangle  margin-left-20">
-                                    350 000 &euro;
-                                </div>
-                            </div>
-                        </div>
+                <div class="back-end padding-40 text-align-center">
+                    <div class="like-retangle margin-auto padding-20">
+                        <span>14</span>
+                        <i class="fa fa-heart fa-lg " aria-hidden="true"></i>
+                    </div>
+                    <h2 class="margin-top-40 text-align-left text-white">Pourquoi y inverstir</h2>
+                    <p class="margin-top-40 text-align-left text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost.</p>
+                    <div class="margin-top-40 input-group">
+                        <input type="text" class="form-control" placeholder=" " aria-describedby="basic-addon2">
+                        <span class="input-group-addon background-orange">Résever</span>
                     </div>
                 </div>
-            </div>
-            <!--end of item-->
-
-
-            <div class="item margin-top-40">
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="thumbnail margin-20px">
-                        <div class="tags">
-                            <div class="retangle">
-                                ISF 2016
-                            </div>
-                            <div class="retangle">
-                                IR
-                            </div>
-                            <div class="retangle">
-                                PEA/PME
-                            </div>
-                        </div>
-                        <img src="./media/image/carousel3.jpg" alt="silver economy">
-                        <div class="caption">
-                            <h3 class="company-title font-weight-bold">ROBOCARE LAB</h3>
-                            <div class="objectif font-weight-bold margin-left-80 margin-right-20">
-                                Objectif :
-                                <div class="rounded-retangle  margin-left-20">
-                                    350 000 &euro;
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--end of item-->
-
-
-            <div class="item margin-top-40">
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="thumbnail margin-20px">
-                        <div class="tags">
-                            <div class="retangle">
-                                ISF 2016
-                            </div>
-                            <div class="retangle">
-                                IR
-                            </div>
-                            <div class="retangle">
-                                PEA/PME
-                            </div>
-                        </div>
-                        <img src="./media/image/carousel3.jpg" alt="silver economy">
-                        <div class="caption">
-                            <h3 class="company-title font-weight-bold">ROBOCARE LAB</h3>
-                            <div class="objectif font-weight-bold margin-left-80 margin-right-20">
-                                Objectif :
-                                <div class="rounded-retangle  margin-left-20">
-                                    350 000 &euro;
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--end of item-->
-
-
-            <div class="item margin-top-40">
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="thumbnail margin-20px">
-                        <div class="tags">
-                            <div class="retangle">
-                                ISF 2016
-                            </div>
-                            <div class="retangle">
-                                IR
-                            </div>
-                            <div class="retangle">
-                                PEA/PME
-                            </div>
-                        </div>
-                        <img src="./media/image/carousel3.jpg" alt="silver economy">
-                        <div class="caption">
-                            <h3 class="company-title font-weight-bold">ROBOCARE LAB</h3>
-                            <div class="objectif font-weight-bold margin-left-80 margin-right-20">
-                                Objectif :
-                                <div class="rounded-retangle  margin-left-20">
-                                    350 000 &euro;
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--end of item-->
-
+            </figure>
 
         </div>
-        <!--end of carousel inner-->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <div class="round-icon">
-                <span class="glyphicon glyphicon-chevron-left"></span>
+        <!--end of thumbnail-->
+
+</div>
+
+<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 padding-30">
+    <div class="thumbnail">
+        <figure>
+            <div class="front-end">
+                <div class="tags">
+                    <div class="retangle">
+                        ISF 2016
+                    </div>
+                    <div class="retangle">
+                        IR
+                    </div>
+                    <div class="retangle">
+                        PEA/PME
+                    </div>
+                </div>
+                <div class="">
+                    <img src="./media/image/thumbnail_example.jpg" alt="silver economy">
+                </div>
+                <div class="caption">
+                    <h3 class="company-title font-weight-bold">ROBOCARE LAB</h3>
+                    <div class="objectif font-weight-bold margin-right-20">
+                        Objectif :
+                        <div class="rounded-retangle  margin-left-20">
+                            350 000 &euro;
+                        </div>
+                    </div>
+                    <p class="margin-top-20 text-light-gray">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Murenam te accusante defenderem. Vulgo enim dicitur
+                    </p>
+                </div>
             </div>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <div class="round-icon">
-                <span class="glyphicon glyphicon-chevron-right"></span>
+
+            <div class="back-end padding-40 text-align-center">
+                <div class="like-retangle margin-auto padding-20">
+                    <span>14</span>
+                    <i class="fa fa-heart fa-lg " aria-hidden="true"></i>
+                </div>
+                <h2 class="margin-top-40 text-align-left text-white">Pourquoi y inverstir</h2>
+                <p class="margin-top-40 text-align-left text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost.</p>
+                <div class="margin-top-40 input-group">
+                    <input type="text" class="form-control" placeholder=" " aria-describedby="basic-addon2">
+                    <span class="input-group-addon background-orange">Résever</span>
+                </div>
             </div>
-        </a>
+        </figure>
+
     </div>
-</section>
+    <!--end of thumbnail-->
+</div>
+
+</div>
+<!--end of row-->

@@ -122,34 +122,52 @@ img.logo {
     padding: 0px;
 }
 
+/*font-end*/
 .thumbnail .tags {
     position: absolute;
-    left: 50px;
-}
-
-.thumbnail .caption {
-    background-color: #e6e6e6;
-    padding: 20px
-}
-
-.thumbnail .caption .company-title {
-    text-align: center;
-    display: block;
-    font-size: 2rem;
-}
-
-.thumbnail .caption .objectif {
-    display: block;
-    text-align: center;
+    left: 5%;
 }
 
 .thumbnail img {
     width: 100%;
 }
 
+.thumbnail .caption {
+    background-color: #e6e6e6;
+    padding: 5%
+  }
+
+.thumbnail .font-end-title {
+    text-align: center;
+    color: #555555;
+    display: block;
+    font-size: 2rem;
+}
+
+.thumbnail .objectif {
+    display: block;
+    text-align: center;
+}
+
+/*back-end*/
+.thumbnail .like-retangle{
+  margin: 10% 5%;
+}
+
+.thumbnail .back-end-title{
+  margin: 5%;
+}
+
+.thumbnail .back-end-text{
+  margin: 5%;
+}
+
+.thumbnail .back-end-input-group{
+  margin: 15% 5%;
+}
+
 /*thumbnail animation*/
 .thumbnail figure {
-
     cursor: pointer;
 }
 
@@ -157,6 +175,7 @@ img.logo {
     display: block;
     position: absolute;
     z-index: 5;
+    padding: 5%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box
@@ -196,13 +215,25 @@ img.logo {
 }
 
 
-@media (min-width: 992px) {
-    .thumbnail .caption .company-title {
-        display: inline-block;
-    }
+@media (min-width: 768px) {
+  .thumbnail figure .back-end{
+    padding: 15px;
+  }
+}
+
+@media (min-width: 1200px), (min-width:480px) and (max-width: 768px){
+  .thumbnail .caption{
+    padding: 5%;
+  }
+
+  .thumbnail .caption .font-end-title {
+      display: inline-block;
+      text-align: left;
+  }
     .thumbnail .caption .objectif {
         display: inline-block;
-        margin-left: 40px;
+        float: right;
+        margin-top: 15px;
     }
 }
 
@@ -214,12 +245,30 @@ img.logo {
 
 
 .carousel-responsive .thumbnail{
-  margin: 30px;
+  /*margin: 1vw 2vw;*/
   background-color: rgba(0, 0, 0, 0);
 }
 
 .carousel-responsive .tags{
   left: 0px;
+}
+
+.slick-list {
+  padding: 3%;
+}
+
+.slick-prev {
+    /*left: 20px;*/
+    z-index: 5;
+    background-color: red;
+    /*to notice it, is white*/
+}
+
+.slick-next {
+    /*float: right;*/
+    background-color: red;
+    z-index: 5;
+    /*to notice it, is white*/
 }
 
 @media (min-width: 992px) {
