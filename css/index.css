@@ -1,27 +1,3 @@
-body {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: #2c3e50;
-}
-
-h1, h2 {
-    font-weight: normal;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    display: inline-block;
-    margin: 0 10px;
-}
-
-a {
-    color: #42b983;
-}
 
 
 /*navigation*/
@@ -105,6 +81,7 @@ img.logo {
 }
 
 .board {
+    margin: 5% 3%;
     position: relative;
     padding: 5%
 }
@@ -131,7 +108,7 @@ img.logo {
 }
 
 .board .vedio {
-    margin: 6% 0;
+    margin: 10% 0;
 }
 
 .board .avatar img {
@@ -150,11 +127,6 @@ img.logo {
 
 #imageFond {
     background-image: url(../media/image/image_fleur.png);
-}
-
-#bloc2 {
-    background-image: url(https://hoolders.com/media/projects/pictures/origin/bloc2.png);
-    padding-bottom: 9px;
 }
 
 
@@ -300,8 +272,9 @@ img.logo {
 /*carousel*/
 
 .carousel-responsive {
-    padding: 0px
-}
+    overflow: hidden;
+    padding: 0
+  }
 
 .carousel-responsive .thumbnail {
     margin: 0 5vw;
@@ -330,15 +303,13 @@ img.logo {
     z-index: 5;
 }
 
-.carousel-responsive .thumbnail .font-end-title,
-.carousel-responsive .thumbnail .objectif {
+.carousel-responsive .thumbnail .font-end-title, .carousel-responsive .thumbnail .objectif {
     margin: 20% 0;
     text-align: left;
 }
 
 @media (min-width: 480px) {
-    .carousel-responsive .thumbnail .font-end-title,
-    .carousel-responsive .thumbnail .objectif {
+    .carousel-responsive .thumbnail .font-end-title, .carousel-responsive .thumbnail .objectif {
         margin: 3% 0;
         text-align: left;
     }
@@ -347,7 +318,7 @@ img.logo {
         transform: scale(2);
         z-index: 5;
     }
-     .slick-next {
+    .slick-next {
         right: 2%;
         transform: scale(2);
         z-index: 5;
@@ -356,40 +327,36 @@ img.logo {
 
 
 /*two silde*/
-@media (min-width: 768px) {
 
+@media (min-width: 768px) {
+  .carousel-responsive {
+      padding: 2% 0;
+    }
 }
 
 
 /*three silde*/
 
 @media (min-width: 1200px) {
-
-  .slick-prev {
-      left: 8%;
-      transform: scale(3);
-      z-index: 5;
-  }
-   .slick-next {
-      right: 8%;
-      transform: scale(3);
-      z-index: 5;
-  }
-
-  .carousel-responsive {
-      padding: 10px 100px
-  }
-
-  .carousel-responsive .thumbnail {
-      margin: 0 35px;
-      background-color: rgba(0, 0, 0, 0);
-  }
-
-    .carousel-responsive .thumbnail .font-end-title,
-    .carousel-responsive .thumbnail .objectif {
+    .slick-prev {
+        left: 8%;
+        transform: scale(3);
+        z-index: 5;
+    }
+    .slick-next {
+        right: 8%;
+        transform: scale(3);
+        z-index: 5;
+    }
+    .carousel-responsive {
+        padding: 10px 100px
+    }
+    .carousel-responsive .thumbnail {
+        margin: 0 35px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .carousel-responsive .thumbnail .font-end-title, .carousel-responsive .thumbnail .objectif {
         margin: 5% 0;
         text-align: left;
     }
-
-
 }
