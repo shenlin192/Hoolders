@@ -12,10 +12,9 @@ $(document).ready(function() {
         arrows: true,
         slidesToShow: 3,
         slidesToScroll: 1,
-        adaptiveHeight: true,
-        autoWidth: true,
+        // autoWidth: true,
         responsive: [{
-                breakpoint: 1024,
+                breakpoint: 1200,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,

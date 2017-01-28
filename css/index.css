@@ -104,15 +104,6 @@ img.logo {
     display: inline-block;
 }
 
-#imageFond {
-    background-image: url(../media/image/image_fleur.png);
-}
-
-#bloc2 {
-    background-image: url(https://hoolders.com/media/projects/pictures/origin/bloc2.png);
-    padding-bottom: 9px;
-}
-
 .board {
     position: relative;
     padding: 5%
@@ -157,6 +148,15 @@ img.logo {
     margin-top: 10%;
 }
 
+#imageFond {
+    background-image: url(../media/image/image_fleur.png);
+}
+
+#bloc2 {
+    background-image: url(https://hoolders.com/media/projects/pictures/origin/bloc2.png);
+    padding-bottom: 9px;
+}
+
 
 /*thumbnail*/
 
@@ -168,7 +168,7 @@ img.logo {
 }
 
 
-/*font-end*/
+/* thumbnail font-end*/
 
 .thumbnail .tags {
     position: absolute;
@@ -191,13 +191,17 @@ img.logo {
     font-size: 2rem;
 }
 
+.thumbnail .font-end-text {
+    margin: 5% 0
+}
+
 .thumbnail .objectif {
     display: block;
     text-align: center;
 }
 
 
-/*back-end*/
+/*thumbnail back-end*/
 
 .thumbnail .like-retangle {
     margin: 10% 5%;
@@ -281,11 +285,11 @@ img.logo {
     .thumbnail .caption {
         padding: 5%;
     }
-    .thumbnail .caption .font-end-title {
+    #thumbnailList .thumbnail .caption .font-end-title {
         display: inline-block;
         text-align: left;
     }
-    .thumbnail .caption .objectif {
+    #thumbnailList .thumbnail .caption .objectif {
         display: inline-block;
         float: right;
         margin-top: 15px;
@@ -300,8 +304,12 @@ img.logo {
 }
 
 .carousel-responsive .thumbnail {
-    /*margin: 1vw 2vw;*/
+    margin: 0 5vw;
     background-color: rgba(0, 0, 0, 0);
+}
+
+.carousel-responsive .thumbnail .back-end {
+    background-color: #5d797d;
 }
 
 .carousel-responsive .tags {
@@ -313,24 +321,75 @@ img.logo {
 }
 
 .slick-prev {
-    /*left: 20px;*/
+    left: 0px;
     z-index: 5;
-    background-color: red;
-    /*to notice it, is white*/
 }
 
 .slick-next {
-    /*float: right;*/
-    background-color: red;
+    right: 0px;
     z-index: 5;
-    /*to notice it, is white*/
 }
 
-@media (min-width: 992px) {
-    .carousel-responsive {
-        padding: 10px 80px
+.carousel-responsive .thumbnail .font-end-title,
+.carousel-responsive .thumbnail .objectif {
+    margin: 20% 0;
+    text-align: left;
+}
+
+@media (min-width: 480px) {
+    .carousel-responsive .thumbnail .font-end-title,
+    .carousel-responsive .thumbnail .objectif {
+        margin: 3% 0;
+        text-align: left;
     }
-    .carousel-responsive .thumbnail .caption .objectif {
-        margin-left: 0px;
+    .slick-prev {
+        left: 2%;
+        transform: scale(2);
+        z-index: 5;
     }
+     .slick-next {
+        right: 2%;
+        transform: scale(2);
+        z-index: 5;
+    }
+}
+
+
+/*two silde*/
+@media (min-width: 768px) {
+
+}
+
+
+/*three silde*/
+
+@media (min-width: 1200px) {
+
+  .slick-prev {
+      left: 8%;
+      transform: scale(3);
+      z-index: 5;
+  }
+   .slick-next {
+      right: 8%;
+      transform: scale(3);
+      z-index: 5;
+  }
+
+  .carousel-responsive {
+      padding: 10px 100px
+  }
+
+  .carousel-responsive .thumbnail {
+      margin: 0 35px;
+      background-color: rgba(0, 0, 0, 0);
+  }
+
+    .carousel-responsive .thumbnail .font-end-title,
+    .carousel-responsive .thumbnail .objectif {
+        margin: 5% 0;
+        text-align: left;
+    }
+
+
 }
