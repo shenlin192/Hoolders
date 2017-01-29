@@ -1,3 +1,5 @@
+/*projet dependent*/
+
 body {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -22,9 +24,6 @@ li {
 a {
     color: #42b983;
 }
-
-
-/*projet dependent*/
 
 .background-orange {
     background-color: rgb(255, 172, 19);

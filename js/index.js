@@ -29,3 +29,11 @@ $(document).ready(function() {
         ]
     });
 });
+
+$(".modal-dialog").on('submit',function(e) {
+    e.preventDefault();
+});
+
+$(".back-end-input-group input").on('click',function(e){
+  e.stopPropagation();
+})

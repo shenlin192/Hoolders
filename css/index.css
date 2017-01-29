@@ -98,7 +98,7 @@ img.logo {
 }
 
 .board .description-vedio {
-    margin: 30% 0 0;
+    margin: 35% 0 0;
 }
 
 .board .text-content {
@@ -145,9 +145,9 @@ img.logo {
 
 /*carousel*/
 
-.carousel-responsive {
+.carousel-responsive{
     overflow: hidden;
-    padding: 0
+    padding: 0;
 }
 
 .carousel-responsive .thumbnail {
